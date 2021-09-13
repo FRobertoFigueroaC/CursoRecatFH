@@ -10,8 +10,8 @@ export const AddCategory = ({setCategories}) => {
     }
     const handleSubmit = (e) => {
         e.preventDefault()
-        if (inputValue){
-            setCategories(cat => [...cat,inputValue])
+        if (inputValue.trim().length >2 ){
+            setCategories(cat => [inputValue,...cat])
             setInputValue('')
         }
     }
