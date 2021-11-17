@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el gif grid debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__bounceIn"
+  >
+    Star Wars
+  </h3>
+  <p
+    className="animate__fadeOutRight"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  >
+    <ul />
+  </div>
+</Fragment>
+`;
